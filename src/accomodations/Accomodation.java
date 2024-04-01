@@ -2,7 +2,7 @@ package accomodations;
 
 import enums.AccomodationType;
 
-public class Accomodation {
+public abstract class Accomodation {
     protected int floorSpace;
     protected int numberOfRooms;
     protected AccomodationType accomodationType;
