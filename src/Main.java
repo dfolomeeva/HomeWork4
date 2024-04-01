@@ -19,7 +19,7 @@ public class Main {
     System.out.print("Please choose the type of accomodation");
     String str = new String();
     Scanner scanner = new Scanner(System.in);
-        while(str.equals("Flat","HotelSuite,"House")) {
+        while(str.equals("Flat","HotelSuite, "House")) {
                 System.out.print("Thank you for your choice!");
     }
 }
